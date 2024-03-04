@@ -1,0 +1,41 @@
+<!DOCTYPE  html>
+<html>
+	<head>
+		<title>HTML Survey Forms</title>
+	</head>
+	<body>
+
+	<h1>Survey</h1>
+
+	<form name="survey"  action="process-survey.php" method="post">
+		User First Name:
+		<input type="text" name="first_name">
+		<br>
+		User Last Name:
+		<input type="text" name="last_name">
+		<br>
+		Choose a favorite car:
+		<select name="cars">
+			<option value="tesla">Tesla</option>
+			<option value="bmw">BMW</option>
+			<option value="audi">Audi</option>
+			<option value="ferrari">Ferrari</option>
+		</select>	
+		<br>
+		Comments:
+		<br>
+		<textarea name="comments" rows="10" cols="30"></textarea>
+		<br>
+		Choose a car color:
+		<input type="radio" name="car_color" value="black"> Black
+		<input type="radio" name="car_color" value="white"> White
+		<br>
+		<input type="submit">
+
+	</form>
+	<br>
+
+
+
+	</body>
+</html>
